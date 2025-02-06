@@ -11,7 +11,7 @@ local hi=vim.api.nvim_set_hl
 
 local main={
     Boolean={bg='', fg=p.lit2},
-    cFunctionTag={bg='', fg=p.lit3 ,bold=true},
+    cFunctionTag={bg='', fg=p.lit3, bold=true},
     Comment={bg='', fg=p.comm, italic=true},
     Conditional={bg='', fg=p.ops1},
     Constant={bg='', fg=p.lit2},
@@ -24,7 +24,7 @@ local main={
     Exception={bg='', fg=p.blod},
     Float={bg='', fg=p.lit3},
     Folded={bg=p.visu, fg=p.high},
-    Function={bg='', fg=p.lit3},
+    Function={bg='', fg=p.dadd, bold=true},
     Identifier={bg='', fg=p.ibgn},
     Ignore={bg='', fg=p.comm},
     Include={bg='', fg=p.incl},
