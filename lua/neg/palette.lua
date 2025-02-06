@@ -1,83 +1,83 @@
 local colors = {
-    norm='#6c7e96', -- default foreground
+    norm='#8b99ac', -- default foreground
 
-    bclr='#000000', -- background color hexadecimal
+    bclr='#1a1a1a', -- background color hexadecimal
     dark='#121212', -- dark color
     drk2='#223f73', -- dark 2 color
-    whit='#d1e5ff', -- white color
+    whit='#ffffff', -- white color
 
-    culc='#272727', -- cursor line/column hexadecimal
-    comm='#3c4754', -- comment color
+    culc='#404040', -- cursor line/column hexadecimal
+    comm='#506071', -- comment color
 
-    lit1='#127978', -- literal color 1
-    lit2='#148787', -- literal color 2
-    lit3='#127a57', -- literal color 3
-    ops1='#367cb0', -- operations color 1
-    ops2='#2b7694', -- operations color 2
-    ops3='#005faf', -- operations color 3
-    ops4='#395573', -- operations color 4
-    otag='#357b63', -- tag highlight color
-    lstr='#54667a', -- literal string highlight
-    incl='#005f87', -- include color
-    dlim='#4779b3', -- delimiter color
-    blod='#5f0000', -- bloody red
+    lit1='#19a4a3', -- literal color 1
+    lit2='#1bb1b1', -- literal color 2
+    lit3='#19a475', -- literal color 3
+    ops1='#4f95c9', -- operations color 1
+    ops2='#3694ba', -- operations color 2
+    ops3='#007ae0', -- operations color 3
+    ops4='#4a6f96', -- operations color 4
+    otag='#45a181', -- tag highlight color
+    lstr='#697e96', -- literal string highlight
+    incl='#0081b8', -- include color
+    dlim='#6993c3', -- delimiter color
+    blod='#940000', -- bloody red
 
-    violet='#3D005D', -- violet
+    violet='#5e008f', -- violet
 
-    visu='#080808', -- visual highlight
-    high='#a5c1e6', -- highlight color
-    darkhigh='#7387a1', -- darker highlight color
+    visu='#212121', -- visual highlight
+    high='#cbdbf1', -- highlight color
+    darkhigh='#91a1b6', -- darker highlight color
 
-    var='#7387a1', -- function highlight
-    func='#7095b0', -- function highlight
+    var='#91a1b6', -- function highlight
+    func='#8facc1', -- function highlight
 
-    dadd='#25533f', -- diff add
-    dchg='#00406d', -- diff change
+    dadd='#36785b', -- diff add
+    dchg='#005d9e', -- diff change
 
-    clin='#131e30', -- cursor line
-    pmen='#6c7e96', -- pmenu color
-    csel='#005faf', -- search highlight color
+    clin='#213554', -- cursor line
+    pmen='#8b99ac', -- pmenu color
+    csel='#007ae0', -- search highlight color
 
-    cmpdef='#0c2430', -- cmp item
+    cmpdef='#16435a', -- cmp item
 
-    iden='#6289b3', -- identifier color
+    iden='#83a2c3', -- identifier color
 
-    lbgn='#7095b0', -- light preprocessor color
-    dbng='#506a7d', -- dark preprocessor color
-    col1='#000408',
-    col2='#010912',
-    col3='#040f1c',
-    col4='#071526',
-    col5='#0c1c30',
-    col6='#10233a',
-    col7='#162b44',
-    col8='#1c334e',
-    col9='#233b58',
-    col10='#2b4462',
-    col11='#344d6c',
-    col12='#3f5876',
-    col13='#496280',
-    col14='#546c8a',
-    col15='#607794',
-    col16='#6d839e',
-    col17='#7c90a8',
-    col18='#8d9eb2',
-    col19='#95a7bc',
-    col20='#a4b3c6',
-    col21='#b7c2d0',
-    col22='#bfc8d0',
-    col23='#dbdfe4',
-    col24='#EEEEEE',
+    lbgn='#8facc1', -- light preprocessor color
+    dbng='#63849c', -- dark preprocessor color
+    col1='#001f3d',
+    col2='#042243',
+    col3='#0a2647',
+    col4='#0f2d52',
+    col5='#16345a',
+    col6='#1b3c64',
+    col7='#23446c',
+    col8='#2a4c74',
+    col9='#31537c',
+    col10='#3b5d87',
+    col11='#44658d',
+    col12='#507095',
+    col13='#5b7a9f',
+    col14='#6e87a6',
+    col15='#7d91aa',
+    col16='#8b9cb1',
+    col17='#9aa9bc',
+    col18='#adb9c7',
+    col19='#b4c1d0',
+    col20='#c3cdda',
+    col21='#d7dde5',
+    col22='#dce1e5',
+    col23='#f9fafb',
+    col24='#ffffff',
 
-    br1='#4064be',
-    br2='#4361b0',
-    br3='#455fa3',
-    br4='#465e9c',
-    br5='#475c94',
-    br6='#485a8c',
-    br7='#485885',
+    br1='#6683cc',
+    br2='#647ec4',
+    br3='#5d77bb',
+    br4='#5d76b6',
+    br5='#5d74b1',
+    br6='#5d72ac',
+    br7='#596da6',
 
-    dnorm='#15181f'
+    dnorm='#292f3d'
 }
 
 return colors
