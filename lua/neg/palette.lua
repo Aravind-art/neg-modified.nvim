@@ -1,83 +1,83 @@
 local colors = {
-    norm='#8b99ac', -- default foreground
+    norm='#919eb1', -- default foreground
 
-    bclr='#1a1a1a', -- background color hexadecimal
+    bclr='#1f1f1f', -- background color hexadecimal
     dark='#121212', -- dark color
     drk2='#223f73', -- dark 2 color
     whit='#ffffff', -- white color
 
-    culc='#404040', -- cursor line/column hexadecimal
-    comm='#506071', -- comment color
+    culc='#454545', -- cursor line/column hexadecimal
+    comm='#556577', -- comment color
 
-    lit1='#19a4a3', -- literal color 1
-    lit2='#1bb1b1', -- literal color 2
-    lit3='#19a475', -- literal color 3
-    ops1='#4f95c9', -- operations color 1
-    ops2='#3694ba', -- operations color 2
-    ops3='#007ae0', -- operations color 3
-    ops4='#4a6f96', -- operations color 4
-    otag='#45a181', -- tag highlight color
-    lstr='#697e96', -- literal string highlight
-    incl='#0081b8', -- include color
-    dlim='#6993c3', -- delimiter color
-    blod='#940000', -- bloody red
+    lit1='#1aadac', -- literal color 1
+    lit2='#1cbaba', -- literal color 2
+    lit3='#1aad7c', -- literal color 3
+    ops1='#579acb', -- operations color 1
+    ops2='#389ac2', -- operations color 2
+    ops3='#007feb', -- operations color 3
+    ops4='#4d749d', -- operations color 4
+    otag='#48a887', -- tag highlight color
+    lstr='#6f839b', -- literal string highlight
+    incl='#0088c2', -- include color
+    dlim='#7198c6', -- delimiter color
+    blod='#9e0000', -- bloody red
 
-    violet='#5e008f', -- violet
+    violet='#640099', -- violet
 
-    visu='#212121', -- visual highlight
-    high='#cbdbf1', -- highlight color
-    darkhigh='#91a1b6', -- darker highlight color
+    visu='#262626', -- visual highlight
+    high='#d3e1f3', -- highlight color
+    darkhigh='#97a6ba', -- darker highlight color
 
-    var='#91a1b6', -- function highlight
-    func='#8facc1', -- function highlight
+    var='#97a6ba', -- function highlight
+    func='#96b1c5', -- function highlight
 
-    dadd='#36785b', -- diff add
-    dchg='#005d9e', -- diff change
+    dadd='#397f60', -- diff add
+    dchg='#0063a8', -- diff change
 
-    clin='#213554', -- cursor line
-    pmen='#8b99ac', -- pmenu color
-    csel='#007ae0', -- search highlight color
+    clin='#24395b', -- cursor line
+    pmen='#919eb1', -- pmenu color
+    csel='#007feb', -- search highlight color
 
-    cmpdef='#16435a', -- cmp item
+    cmpdef='#184962', -- cmp item
 
-    iden='#83a2c3', -- identifier color
+    iden='#8aa7c7', -- identifier color
 
-    lbgn='#8facc1', -- light preprocessor color
-    dbng='#63849c', -- dark preprocessor color
-    col1='#001f3d',
-    col2='#042243',
-    col3='#0a2647',
-    col4='#0f2d52',
-    col5='#16345a',
-    col6='#1b3c64',
-    col7='#23446c',
-    col8='#2a4c74',
-    col9='#31537c',
-    col10='#3b5d87',
-    col11='#44658d',
-    col12='#507095',
-    col13='#5b7a9f',
-    col14='#6e87a6',
-    col15='#7d91aa',
-    col16='#8b9cb1',
-    col17='#9aa9bc',
-    col18='#adb9c7',
-    col19='#b4c1d0',
-    col20='#c3cdda',
-    col21='#d7dde5',
-    col22='#dce1e5',
-    col23='#f9fafb',
+    lbgn='#96b1c5', -- light preprocessor color
+    dbng='#6a89a0', -- dark preprocessor color
+    col1='#002447',
+    col2='#04274d',
+    col3='#0b2b50',
+    col4='#11325a',
+    col5='#183962',
+    col6='#1e416c',
+    col7='#254974',
+    col8='#2d517c',
+    col9='#345883',
+    col10='#3e628e',
+    col11='#476a94',
+    col12='#54759c',
+    col13='#607fa4',
+    col14='#748caa',
+    col15='#8497ae',
+    col16='#91a1b6',
+    col17='#a0afc0',
+    col18='#b3becb',
+    col19='#bac6d4',
+    col20='#cad2de',
+    col21='#dde2e9',
+    col22='#e2e6e9',
+    col23='#ffffff',
     col24='#ffffff',
 
-    br1='#6683cc',
-    br2='#647ec4',
-    br3='#5d77bb',
-    br4='#5d76b6',
-    br5='#5d74b1',
-    br6='#5d72ac',
-    br7='#596da6',
+    br1='#6e89cf',
+    br2='#6b84c7',
+    br3='#647dbe',
+    br4='#647cb9',
+    br5='#647ab4',
+    br6='#6478af',
+    br7='#6073a9',
 
-    dnorm='#292f3d'
+    dnorm='#2d3443'
 }
 
 return colors
