@@ -24,7 +24,7 @@ local main={
     Exception={bg='', fg=p.blod},
     Float={bg='', fg=p.lit3},
     Folded={bg=p.visu, fg=p.high},
-    Function={bg='', fg=p.func},
+    Function={bg=p.dark2, fg=p.func},
     Identifier={bg='', fg=p.iden},
     Ignore={bg='', fg=p.comm},
     Include={bg='', fg=p.incl},
