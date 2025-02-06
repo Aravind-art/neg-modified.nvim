@@ -1,83 +1,83 @@
 local colors = {
-    norm='#919eb1', -- default foreground
+    norm='#aeb191', -- default foreground
 
     bclr='#1f1f1f', -- background color hexadecimal
-    dark='#121212', -- dark color
-    drk2='#223f73', -- dark 2 color
+    dark='#303030', -- dark color
+    drk2='#91a130', -- dark 2 color
     whit='#ffffff', -- white color
 
     culc='#454545', -- cursor line/column hexadecimal
-    comm='#556577', -- comment color
+    comm='#767755', -- comment color
 
-    lit1='#1aadac', -- literal color 1
-    lit2='#1cbaba', -- literal color 2
-    lit3='#1aad7c', -- literal color 3
-    ops1='#579acb', -- operations color 1
-    ops2='#389ac2', -- operations color 2
-    ops3='#007feb', -- operations color 3
-    ops4='#4d749d', -- operations color 4
-    otag='#48a887', -- tag highlight color
-    lstr='#6f839b', -- literal string highlight
-    incl='#0088c2', -- include color
-    dlim='#7198c6', -- delimiter color
-    blod='#9e0000', -- bloody red
+    lit1='#ad621a', -- literal color 1
+    lit2='#ba6b1c', -- literal color 2
+    lit3='#ad321a', -- literal color 3
+    ops1='#cbc357', -- operations color 1
+    ops2='#c2a438', -- operations color 2
+    ops3='#ebe100', -- operations color 3
+    ops4='#9c9d4d', -- operations color 4
+    otag='#a85748', -- tag highlight color
+    lstr='#999b6f', -- literal string highlight
+    incl='#c29a00', -- include color
+    dlim='#c3c671', -- delimiter color
+    blod='#9e4f9e', -- bloody red
 
-    violet='#640099', -- violet
+    violet='#009918', -- violet
 
     visu='#262626', -- visual highlight
-    high='#d3e1f3', -- highlight color
-    darkhigh='#97a6ba', -- darker highlight color
+    high='#f1f3d3', -- highlight color
+    darkhigh='#b7ba97', -- darker highlight color
 
-    var='#97a6ba', -- function highlight
-    func='#96b1c5', -- function highlight
+    var='#b7ba97', -- function highlight
+    func='#c5c196', -- function highlight
 
-    dadd='#397f60', -- diff add
-    dchg='#0063a8', -- diff change
+    dadd='#7f3d39', -- diff add
+    dchg='#a89a00', -- diff change
 
-    clin='#24395b', -- cursor line
-    pmen='#919eb1', -- pmenu color
-    csel='#007feb', -- search highlight color
+    clin='#555b24', -- cursor line
+    pmen='#aeb191', -- pmenu color
+    csel='#ebe100', -- search highlight color
 
-    cmpdef='#184962', -- cmp item
+    cmpdef='#625618', -- cmp item
 
-    iden='#8aa7c7', -- identifier color
+    iden='#c6c78a', -- identifier color
 
-    lbgn='#96b1c5', -- light preprocessor color
-    dbng='#6a89a0', -- dark preprocessor color
-    col1='#002447',
-    col2='#04274d',
-    col3='#0b2b50',
-    col4='#11325a',
-    col5='#183962',
-    col6='#1e416c',
-    col7='#254974',
-    col8='#2d517c',
-    col9='#345883',
-    col10='#3e628e',
-    col11='#476a94',
-    col12='#54759c',
-    col13='#607fa4',
-    col14='#748caa',
-    col15='#8497ae',
-    col16='#91a1b6',
-    col17='#a0afc0',
-    col18='#b3becb',
-    col19='#bac6d4',
-    col20='#cad2de',
-    col21='#dde2e9',
-    col22='#e2e6e9',
+    lbgn='#c5c196', -- light preprocessor color
+    dbng='#a09b6a', -- dark preprocessor color
+    col1='#474700',
+    col2='#4b4d04',
+    col3='#4d500b',
+    col4='#575a11',
+    col5='#5e6218',
+    col6='#686c1e',
+    col7='#707425',
+    col8='#797c2d',
+    col9='#808334',
+    col10='#8a8e3e',
+    col11='#909447',
+    col12='#999c54',
+    col13='#a1a460',
+    col14='#a7aa74',
+    col15='#acae84',
+    col16='#b4b691',
+    col17='#bec0a0',
+    col18='#cacbb3',
+    col19='#d3d4ba',
+    col20='#dcdeca',
+    col21='#e8e9dd',
+    col22='#e9e9e2',
     col23='#ffffff',
     col24='#ffffff',
 
-    br1='#6e89cf',
-    br2='#6b84c7',
-    br3='#647dbe',
-    br4='#647cb9',
-    br5='#647ab4',
-    br6='#6478af',
-    br7='#6073a9',
+    br1='#bacf6e',
+    br2='#b2c76b',
+    br3='#aabe64',
+    br4='#a7b964',
+    br5='#a2b464',
+    br6='#9eaf64',
+    br7='#98a960',
 
-    dnorm='#2d3443'
+    dnorm='#3e432d'
 }
 
 return colors
