@@ -94,7 +94,7 @@ local spell={
 local html={
     htmlTag={fg=p.ops2, bold=true},
     htmlEndTag={fg=p.ops2},
-    htmlTagName={fg=p.otag, bold=true},
+    htmlTagName={fg=p.ops2, bold=true},
 }
 
 local pmenu={
