@@ -10,8 +10,8 @@ local p=require'neg.palette'
 local hi=vim.api.nvim_set_hl
 
 local main={
-    Boolean={bg='', fg=p.lit2},
-    cFunctionTag={bg='', fg=p.lit3, bold=true},
+    Boolean={bg='', fg=p.lit3},
+    cFunctionTag={bg='', fg=p.lit2},
     Comment={bg='', fg=p.comm, italic=true},
     Conditional={bg='', fg=p.ops1},
     Constant={bg='', fg=p.lit2},
@@ -24,8 +24,8 @@ local main={
     Exception={bg='', fg=p.blod},
     Float={bg='', fg=p.lit3},
     Folded={bg=p.visu, fg=p.high},
-    Function={bg='', fg=p.dadd, bold=true},
-    Identifier={bg='', fg=p.ibgn},
+    Function={bg='', fg=p.func},
+    Identifier={bg='', fg=p.iden},
     Ignore={bg='', fg=p.comm},
     Include={bg='', fg=p.incl},
     IncSearch={bg=p.dark, fg=p.csel, italic=true,underline=true},
