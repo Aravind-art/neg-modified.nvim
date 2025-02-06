@@ -1,16 +1,17 @@
 -- Name:        neg
 -- Version:     3.19
 -- Last Change: 05-07-2024
--- Maintainer:  Sergey Miroshnichenko <serg.zorg@gmail.com>
--- URL:         https://github.com/neg-serg/neg.nvim
--- About:       neg theme extends Jason W Ryan's miromiro(1) Vim color file
+-- Maintainer:  Aravind Muthuraman <aravind_balalok@gmail.com>
+-- Credits:     Sergey Miroshnichenko <serg.zorg@gmail.com>
+-- URL:         https://github.com/Aravind-art/neg-modified.nvim
+-- About:       neg theme extends Jason W Ryan's miromiro(1) Vim color file contrast improved
 local M={}
 local p=require'neg.palette'
 local hi=vim.api.nvim_set_hl
 
 local main={
-    Boolean={bg='', fg=p.lit3},
-    cFunctionTag={bg='', fg=p.lit2},
+    Boolean={bg='', fg=p.lit2},
+    cFunctionTag={bg='', fg=p.lit3 ,bold=true},
     Comment={bg='', fg=p.comm, italic=true},
     Conditional={bg='', fg=p.ops1},
     Constant={bg='', fg=p.lit2},
@@ -23,8 +24,8 @@ local main={
     Exception={bg='', fg=p.blod},
     Float={bg='', fg=p.lit3},
     Folded={bg=p.visu, fg=p.high},
-    Function={bg='', fg=p.func},
-    Identifier={bg='', fg=p.iden},
+    Function={bg='', fg=p.lit3},
+    Identifier={bg='', fg=p.ibgn},
     Ignore={bg='', fg=p.comm},
     Include={bg='', fg=p.incl},
     IncSearch={bg=p.dark, fg=p.csel, italic=true,underline=true},
