@@ -1,9 +1,9 @@
 local colors = {
     norm='#aeb191', -- default foreground
 
-    bclr='#1f1f1f', -- background color hexadecimal
-    dark='#303030', -- dark color
-    drk2='#91a130', -- dark 2 color
+    bclr='#000000', -- background color hexadecimal
+    dark='#121212', -- dark color
+    drk2='#677222', -- dark 2 color
     whit='#ffffff', -- white color
 
     culc='#454545', -- cursor line/column hexadecimal
